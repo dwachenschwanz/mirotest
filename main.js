@@ -17,15 +17,15 @@ miro.onReady(() => {
     extensionPoints: {
 
 
-      toolbar: {
-        title: 'Template builder',
-        toolbarSvgIcon: icon24,
-        librarySvgIcon: icon48,
-        onClick: () => {
-            alert("Hi!")
-        //   miro.board.ui.openLibrary('builder.html', {title: 'Template builder'})
-        },
-      },
+    //   toolbar: {
+    //     title: 'Template builder',
+    //     toolbarSvgIcon: icon24,
+    //     librarySvgIcon: icon48,
+    //     onClick: () => {
+    //         alert("Hi!")
+    //     //   miro.board.ui.openLibrary('builder.html', {title: 'Template builder'})
+    //     },
+    //   },
 
       bottomBar: {
         title: "Board cleaner",
