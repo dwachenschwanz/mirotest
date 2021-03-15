@@ -2,7 +2,7 @@ const icon =
   '<circle cx="12" cy="12" r="9" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></circle>';
 
   const iconsq =
-    '<rect x="2" y="2" width="9" height="9" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></rect>';
+    '<ellipse cx="12" cy="12" rx="9" ry="5" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="2"></ellipse>';
 
 miro.onReady(() => {
   miro.initialize({
