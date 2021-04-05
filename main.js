@@ -8,7 +8,7 @@ miro.onReady(() => {
   miro.initialize({
     extensionPoints: {
       bottomBar: {
-        title: "Board cleaner",
+        title: "My Board cleaner",
         svgIcon: iconsq,
         onClick: async () => {
           // Show modal and wait for user choice
